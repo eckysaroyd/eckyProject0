@@ -1,0 +1,19 @@
+{
+  "name": "eckyproject0",
+  "version": "1.0.0",
+  "description": "a new project 0 using MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eckysaroyd/eckyProject0.git"
+  },
+  "author": "ECKY",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eckysaroyd/eckyProject0/issues"
+  },
+  "homepage": "https://github.com/eckysaroyd/eckyProject0#readme"
+}
