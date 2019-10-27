@@ -16,8 +16,6 @@ mongoose
   .then(() => console.log(`DB connected`))
   .catch(err => console.log(err));
 
-app.get("/", (req, res) => res.send(`hellow World I'am Here`));
-
 //uses routes
 app.use("/api/post", post);
 app.use("/api/profile", profile);
