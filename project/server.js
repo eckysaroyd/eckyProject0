@@ -1,6 +1,10 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
+const post = require("./routes/api/post.js");
+const profile = require("./routes/api/profile.js");
+const users = require("./routes/api/users.js");
+
 const app = express();
 
 //db config
@@ -13,6 +17,11 @@ mongoose
   .catch(err => console.log(err));
 
 app.get("/", (req, res) => res.send(`hellow World I'am Here`));
+
+//uses routes
+app.use("/api/post", post);
+app.use("/api/profile", profile);
+app.use("/api/users", users);
 
 const port = process.env.PORT || 2000;
 
