@@ -16,8 +16,7 @@ const UserSchema =new Schema({
         required :true
     },
     avator:{
-        type:string,
-        required :true
+        type:string
     },
     date:{
         type:Date,
